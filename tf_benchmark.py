@@ -2,12 +2,13 @@
 # 1.10.1 (pip - missing AVX2 FMA): 161s/165s                          29.09.2018
 # 1.10.0 (conda - missing SSE4.1 SSE4.2 AVX AVX2 FMA): 1256s          29.09.2018
 # 1.10.1 (build-from-source): 153s/153s                               29.09.2018
+# 1.12.0 (conda - tensorflow-gpu): 14s/14s/14s                        25.01.2019
 
 
 import keras
 from keras.datasets import mnist
 from keras.models import Sequential
-from keras.layers import Dense, Dropout, Flatten
+from keras.layers import Dense, Flatten
 from keras.layers import Conv2D, MaxPooling2D
 from keras import backend as K
 
